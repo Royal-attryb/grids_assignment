@@ -1,0 +1,52 @@
+.box {
+    font-family: 'Poppins';
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    /* border: 1px solid black; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.header, .footer, .sidebar, .content1, .content2, .content3 {
+    flex: 1;
+}
+
+
+
+/* Color */
+.red {
+    background-color: rgb(255, 99, 71);
+}
+
+.purple {
+    background-color: rgb(148, 0, 211);
+}
+
+.green {
+    background-color: rgb(0, 128, 128);
+}
+
+.yellow {
+    background-color: rgb(255, 215, 0);
+}
+
+
+
+@media(min-width: 768px) {
+    /* Layout */
+    .content3 {
+        grid-column: 3 / 4;
+    }
+
+    .content1 {
+        flex: 1;
+    }
+}
+
+
+
+
+
+
